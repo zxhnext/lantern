@@ -3000,14 +3000,6 @@ p.nominalBounds = new cjs.Rectangle(0,-480.3,640.3,1806.8);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).wait(30).call(this.frame_30).wait(9).call(this.frame_39).wait(5).call(this.frame_44).wait(5).call(this.frame_49).wait(5).call(this.frame_54).wait(10).call(this.frame_64).wait(1));
 
-	// btn
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#CCCCCC").ss(1,1,1).p("EgsqgYXMBZBAAAIAAMgMhZBAAAgEgsqgG3MBZVAAAIAANHMhZVAAAgEgsqAL4MBZVAAAIAAMgMhZVAAAg");
-	this.shape.setTransform(269.9,660);
-	this.shape._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(39).to({_off:false},0).wait(10).to({_off:true},5).wait(11));
-
 	// current
 	this.q1_d = new lib.q1_d_1();
 	this.q1_d.setTransform(271.9,776,1,1,0,0,0,287.9,40);
